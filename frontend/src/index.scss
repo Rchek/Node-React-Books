@@ -1,0 +1,189 @@
+/*Variables*/
+$bordeaux:#6d071a;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: black !important;
+    text-decoration: none !important;
+    background-color: white !important;
+}
+
+.app-title{
+	display:none;
+}
+
+.item-block {
+    padding: 10px;
+ 
+}
+
+div#retro-container {
+    width: 90%;
+    margin: auto;
+    max-width: 1400px;
+}
+
+.title-block {
+    font-weight: bold;
+    text-align: left;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-family: 'Anton';
+    letter-spacing: 1px;
+}
+
+.item-block {
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid #888;
+    max-width: 800px;
+    margin: auto;
+    width: 90%;
+    padding-top: 10px;
+    margin-top: 50px;
+}
+
+span.by-label {
+    font-size: 15px;
+}
+.description {
+    font-size: 12px;
+}
+
+.navbar-brand{
+	font-family:'Anton';
+}
+
+span.comment-body {
+    display: inline-block;
+    width: 100%;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.previous-comments-title {
+    font-family: 'Anton';
+}
+
+span.author {
+    font-weight: bold;
+}
+
+.previous-comment-block {
+    font-size: 12px;
+	margin: 8px 0;
+}
+ 
+/********Styles Faune***********/
+.title-block-faune {
+    font-weight: bold;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-family: 'Anton';
+    letter-spacing: 1px;
+}
+
+.specie-item{
+	text-align:center;
+	
+}
+
+.books-by {
+    text-align: left;
+    font-family: Anton;
+    margin-top: 20px;
+}
+
+.books-by{
+	a,a:hover{
+		color: $bordeaux;
+		
+		
+	}
+} 
+ 
+.Comment-block{
+	.btn{
+		background-color:$bordeaux !important;
+		font-weight:bold;
+		border:none  !important;
+		border-radius:0  !important;
+		
+		opacity:0.8;
+		&:focus{
+			box-shadow:none  !important;
+			color:white;
+		}
+		&:hover{
+			opacity:1;
+		}
+	}
+}
+
+.author-link{
+	color:#6d071a !important;
+}
+
+
+
+.ajax-block {
+    text-align: center;
+	img {
+		width: 100%;
+		max-width: 100px;
+		margin: auto;
+	}
+	
+	.hidden{
+		display:none;
+	}
+}
+
+
+#add-books-form{
+	
+	.form-group{
+		text-align:left;
+		margin: 20px auto;
+		max-width:500px;
+		width:90%;
+		
+		&#submit-book{
+			text-align:center;
+		}
+		
+		label{
+			display:block;
+		}
+	}
+	
+	
+	
+	.btn{
+		background-color:$bordeaux !important;
+		font-weight:bold;
+		border:none  !important;
+		border-radius:0  !important;
+		
+		opacity:0.8;
+		&:focus{
+			box-shadow:none  !important;
+			color:white;
+		}
+		&:hover{
+			opacity:1;
+		}
+	}
+	
+}
