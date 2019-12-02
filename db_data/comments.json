@@ -1,0 +1,3 @@
+{"_id":{"$oid":"5dc3fb8d0023cb3a2cd48496"},"book_id":"5dc2b4245d737e16f04ce79e","comment_author":"fourmi","comment_body":"commentaire sur les forumis","status":"approved","comment_date":"07/11/2019, 11:02:35","__v":0}
+{"_id":{"$oid":"5dc3fc0d0023cb3a2cd48498"},"book_id":"5dc2b4825d737e16f04ce79f","comment_author":"misar","comment_body":"bon livre","status":"","comment_date":"07/11/2019, 10:58:39","__v":0}
+{"_id":{"$oid":"5dd67170f953d91980fca5a0"},"book_id":"5dc19af72924a81948c5e84e","comment_author":"author","comment_body":"testcomment","status":"","comment_date":"21/11/2019, 11:13:47","__v":0}
